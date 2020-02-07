@@ -98,6 +98,6 @@ elseif (MSVC)
 endif()
 
 if (BUILD_SHARED_LIBS)
-   target_compile_definitions(enet INTERFACE ENET_DLL)
+   add_compile_definitions(ENET_DLL)
 endif()
 
